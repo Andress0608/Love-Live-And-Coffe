@@ -1,0 +1,270 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Caveat);
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+#cabecera {
+    width: 100%;
+    min-width: 1000px;
+    height: 670px;
+    background-image: url(../img/business1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+    .container_1 {
+        width: 80%;
+        height: 100%;
+        /*border: 1px solid;*/
+        margin: 0 auto;
+    }
+        .social {
+            width: 100%;
+            height: 100px;
+            /*border: 1px solid;*/
+            margin: 0 auto;
+        }
+            .social span {
+                float: right;
+                padding: 50px 0px 0px 10px;
+                color: rgb(74, 70, 68);
+                font-size: 1.2em;
+                position: relative;
+            }
+            .social span:hover {
+                color: rgb(235, 34, 64);
+            }
+        .menu {
+            background-color: rgb(235, 34, 64);
+            width: 100%;
+            min-width: 800px;
+            height: 80px;
+            /*border: 1px solid;*/
+            margin: 0 auto;
+            border-radius: 8px;
+            float: left;
+        }
+.menu ul {
+    padding: 0;
+}
+.menu_in {
+    float: left;
+    list-style: none;
+    font-size: 1.1em;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding: 15px 1% 15px 4%;
+    -moz-transition: .4s ease-in-out;
+    -o-transition: .4s ease-in-out;
+    -webkit-transition: .4s ease-in-out;
+}
+.menu ul li:hover {
+    color: rgb(167, 2, 17);
+}
+.icon-user {
+    color: rgb(255, 255, 255);
+    float: right;
+    font-size: 1.2em;
+    list-style: none;
+    padding: 11px 11px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin-right: 5%;
+    -moz-transition: .4s ease;
+    -o-transition: .4s ease;
+    -webkit-transition: .4s ease;
+    cursor: default;
+}
+.diamond {
+    width: 100%;
+    height: 319px;
+    float: left;
+    text-align: center;
+}
+    .diamond h1 {
+        font-size: 6em;
+        font-family: 'Caveat', cursive;
+        color: rgb(59, 62, 69);
+        text-transform: uppercase;
+    }
+#cuerpo {
+    width: 100%;
+    min-width: 1000px;
+    height: auto;
+}
+    .container_2 {
+        width: 100%;
+        height: 500px;
+        background-color: rgb(9, 104, 129);
+        float: left;
+    }
+        .cinta_t {
+            width: 100%;
+            height: 100px;
+            text-align: center;
+        }
+            .cinta_t h2 {
+                font-family: 'Open Sans Condensed', sans-serif;
+                font-weight: lighter;
+                text-transform: uppercase;
+                color: rgb(255, 255, 255);
+                font-size: 2.1em;
+                padding-top: 20px;
+            }
+        .container_2 .cinta {
+            width: 33%;
+            height: 330px;
+            margin-top: 60px;
+            float: left;
+            /*border: 1px solid;*/
+            text-align: center;
+        }
+            .container_2 .cinta p {
+                color: rgb(255, 255, 255);
+                font-family: 'Open Sans Condensed', sans-serif;
+                font-size: 1.4em;
+                padding: 30px;
+                line-height: 1;
+            }
+            .fico {
+                color: rgb(255, 255, 255);
+                font-size: 4.9em;
+                display: inline;
+                padding: 15px;
+            }
+            .selec::selection {
+                color: rgb(235, 34, 64);
+            }
+            .selec::-moz-selection {
+                color: rgb(235, 34, 64);
+            }
+    .container_3 {
+        width: 100%;
+        height: 400px;
+        float: left;
+        background-image: url(../img/organized.jpg);
+        background-size: cover;
+    }
+        .contex {
+            width: 60%;
+            min-width: 810px;
+            height: 100%;
+            float: left;
+        }
+            .contex p {
+                padding: 150px 0px 0px 90px;
+                font-size: 2.4em;
+                font-family: 'Open Sans Condensed', sans-serif;
+                color: rgb(235, 34, 64);
+                text-transform: uppercase;
+                font-weight: bold;
+                line-height: 0;
+            }
+            .contex span {
+                padding: 0px 0px 0px 90px;
+                font-size: 1.5em;
+                display: inline-block;
+                font-family: 'Open Sans Condensed', sans-serif;
+                color: rgb(59, 62, 69);
+                text-transform: uppercase;
+                line-height: 0;
+                font-weight: bold;
+            }
+        .contxb {
+            width: 15%;
+            height: 100%;
+            float: left;
+        }
+            .bt1 {
+                width: 80px;
+                height: 55px;
+                margin-top: 180px;
+                text-align: center;
+                border: 2px solid rgb(21, 21, 28);
+            }
+                .bt1 span {
+                    font-size: 3.3em;
+                    color: rgb(21, 21, 28);
+                }
+    .container_4 {
+        background-color: rgb(235, 237, 236);
+        width: 100%;
+        height: auto;
+        text-align: center;
+        float: left;
+    }
+        .container_4 h3 {
+          color: rgb(235, 34, 64);
+          font-family: 'Open Sans Condensed', sans-serif;
+          font-size: 1.8em;
+          text-transform: uppercase;
+        }
+        .container_4 h4 {
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-size: 1.9em;
+            text-align: left;
+            padding-left: 55px;
+            text-transform: uppercase;
+            color: rgb(59, 62, 69);
+        }
+        .container_4 p {
+            color: rgb(59, 62, 69);
+            font-family: 'Open Sans Condensed', sans-serif;
+            padding: 10px 70px 20px 70px;
+            font-size: 1.4em;
+        }
+        .container_4 .video {
+            width: 760px;
+            height: 400px;
+            margin: 0 auto;
+            margin-bottom: 50px;
+
+        }
+        .container_4 .cinta {
+            float: left;
+            width: 29%;
+            height: auto;
+            margin-left: 3%;
+        }
+        .container_4 .cinta img {
+            width: 100%;
+        }
+#pie {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(36, 40, 45);
+    clear: both;
+    overflow: hidden;
+}
+    .copy {
+        width: 79%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 50px;
+        text-align: center;
+    }
+        .copy p {
+            font-family: 'Caveat', cursive;
+            font-size: 2.9em;
+            color: rgb(109, 110, 110);
+            margin: 0;
+        }
+        .copy span {
+            font-size: 2.1em;
+            color: rgb(109, 110, 110);
+            padding: 15px 6px 5px 6px;
+        }
+    .right {
+        width: 500px;
+        height: auto;
+        margin: 0 auto;
+        clear: both;
+        text-align: center;
+    }    
+        .right p {
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-size: 1.3em;
+            color: rgb(109, 110, 110);
+        }
